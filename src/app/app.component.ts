@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -9,7 +8,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   title = 'practice-angular-app';
-  isOpen: boolean = false
+  isOpen: boolean = true;
   onToggle():void{
     this.isOpen = !this.isOpen;
   }
