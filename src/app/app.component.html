@@ -19,6 +19,9 @@
     </div>
     <div class="sidebar" *ngIf="isOpen">
     </div>
+    <app-task-list></app-task-list>
+    <app-header (newItemEvent)="toggle()"></app-header>
+    <app-nav-bar [isopen]="istemp"></app-nav-bar>
   </body>
 </html>
 

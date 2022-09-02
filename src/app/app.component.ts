@@ -9,6 +9,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'practice-angular-app';
   isOpen: boolean = true;
+
+  istemp: boolean = false;
+
+  toggle(){
+    this.istemp = !this.istemp;
+  }
+
   onToggle():void{
     this.isOpen = !this.isOpen;
   }
